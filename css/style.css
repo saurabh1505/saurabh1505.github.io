@@ -8573,7 +8573,7 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   -moz-box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09);
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 600; }
@@ -8581,8 +8581,8 @@ h1, h2, h3, h4, h5,
     outline: none; }
   .btn.btn-primary {
     background: #3e64ff;
-    border: 1px solid #3e64ff !important;
-    margin-right: 5px;
+    border: 0px solid #3e64ff !important;
+    margin-right: 15px;
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #3e64ff !important;
