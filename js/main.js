@@ -270,14 +270,14 @@
   });
 
 
-  var goHere = function() {
+   var goHere = function() {
 
 		$('.mouse-icon').on('click', function(event){
 			
 			event.preventDefault();
 
 			$('html,body').animate({
-				scrollTop: 75
+				scrollTop: $('.goto-here').offset().top
 			}, 500, 'easeInOutExpo');
 			
 			return false;
@@ -286,8 +286,6 @@
 	goHere();
 
 	// $("#myScrollspy").scrollspy({ offset: -75 });
-
-
 
 
 var TxtRotate = function(el, toRotate, period) {
