@@ -276,9 +276,9 @@
 			
 			event.preventDefault();
 
-			$('#about-section').animate({
-				scrollTop: $('.goto-here').offset().top
-			}, 600, 'easeInOutExpo');
+			$('html,body').animate({
+				scrollTop: $('.goto-here').offset(-75).top
+			}, 500, 'easeInOutExpo');
 			
 			return false;
 		});
@@ -286,6 +286,7 @@
 	goHere();
 
 	// $("#myScrollspy").scrollspy({ offset: -75 });
+
 
 
 
